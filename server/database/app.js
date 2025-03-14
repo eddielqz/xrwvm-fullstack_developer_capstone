@@ -88,7 +88,7 @@ app.get('/fetchDealer/:id', async (req, res) => {
 
         res.json(dealerID);
       } catch (error) {
-        res.status(500).json({ error: 'Error fetching dealers by ID' });
+        res.status(500).json({ error: 'Error fetching dealer by ID' });
       }
     });
 //Express route to insert review
